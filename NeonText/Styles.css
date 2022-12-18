@@ -1,0 +1,40 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(wall.png);
+    background-size: auto 100%;
+}
+
+@font-face {
+    font-family: neon;
+    src: url(hellodenverdisplayregular_v1.6.ttf);
+}
+
+.neon-wrapper {
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e97272, 0 0 4vw 0.4vw #e50b0b, inset 0 0 1.5vw 0.4vw #e50b0b, inset 0 0 0.4vw 0.2vw #e97272, inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1.5rem;
+}
+
+.neon-text {
+    font-family: neon;
+    font-size: 14rem;
+    color: #ffd8d8;
+    padding: 0 3.5rem 0 3.5rem;
+    text-shadow: .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, .1vw 0vw 0vw #f25757, .2vw 0vw 0vw #f25757, .4vw 0vw 0vw #f25757, .1vw 0vw .1vw #f25757, .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757, .1vw 0vw 2vw #f25757, .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757, .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b, .1vw 0vw 5vw #e50b0b, .2vw 0vw 20vw #e50b0b, .4vw 0vw 10vw #e50b0b, .1vw 0vw 10vw #e50b0b, .2vw 0vw 30vw #e50b0b, .4vw 0vw 10vw #e50b0b;
+}
+
+.neon-wrapper-blue {
+    box-shadow: 0 0 0.1vw 0.4vw #f9f7ff, 0 0 0.4vw 0.6vw #3013c2, 0 0 4vw 0.4vw #10069a, inset 0 0 1.5vw 0.4vw #0a1bb0, inset 0 0 0.4vw 0.2vw #0e0a7e, inset 0 0 0.5vw 0.2vw #3003b9;
+    border-radius: 1.5rem;
+}
+
+.neon-text-blue {
+    font-family: neon;
+    font-size: 14rem;
+    color: #4819b4;
+    padding: 0 3.5rem 0 3.5rem;
+    text-shadow: .1vw 0vw .25vw #220d99, .2vw 0vw .25vw #460ea1, .4vw 0vw .25vw #2f0a8d, .1vw 0vw 0vw #2f119d, .2vw 0vw 0vw #3013d3, .4vw 0vw 0vw #0a1d97, .1vw 0vw .1vw #3e1cd7, .2vw 0vw .1vw #21069a, .4vw 0vw .1vw #1616a8, .1vw 0vw 2vw #101c88, .2vw 0vw 2vw #1711ab, .4vw 0vw 2vw #2f09a1, .1vw 0vw 1vw #490be5, .2vw 0vw 1vw #461a96, .4vw 0vw 5vw #1d0be5, .1vw 0vw 5vw #500be5, .2vw 0vw 20vw #1d0be5, .4vw 0vw 10vw #570be5, .1vw 0vw 10vw #1d0be5, .2vw 0vw 30vw #240be5, .4vw 0vw 10vw #500be5;
+}
